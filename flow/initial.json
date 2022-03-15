@@ -323,5 +323,19 @@
             "twitter"
         ],
         "key": "STEP_4"
+    },
+
+    {
+        "keywords":  [
+            "facebook"
+        ],
+        "key": "STEP_5"
+    },
+
+    {
+        "keywords":  [
+            "fanpage facebook"
+        ],
+        "key": "STEP_6"
     }
 ]
