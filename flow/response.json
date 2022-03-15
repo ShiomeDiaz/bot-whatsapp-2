@@ -655,13 +655,32 @@
     "STEP_3":{
         "replyMessage":[
             "visita mi cuenta de Instagram \n",
-            "https://www.instagram.com/alejandroceballos1967/ \n\n",
+            "https://www.instagram.com/alejandroceballos1967/ \n\n"
+        ],
+        "media":null,
+        "trigger":"STEP_4"
+    },
+    "STEP_4":{
+        "replyMessage":[
             "conoce mi cuenta de  Twitter\n",
-            "https://twitter.com/aceballosm\n\n",
+            "https://twitter.com/aceballosm\n\n"
+        ],
+        "media":null,
+        "trigger":"STEP_5"
+    },
+    "STEP_5":{
+        "replyMessage":[
             "Visitame en mi cuenta personal de Facebook \n",
-            "https://www.facebook.com/alejandro.ceballos.5623\n\n",
+            "https://www.facebook.com/alejandro.ceballos.5623\n\n"
+        ],
+        "media":null,
+        "trigger":"STEP_6"
+    },
+    "STEP_6":{
+        "replyMessage":[
             "Te invito a conocer mi Fan page de Facebook\n",
-            "https://www.facebook.com/alejandroceballosmarquez\n\n"
+            "https://www.facebook.com/alejandroceballosmarquez\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
         ],
         "media":null,
         "trigger":null
