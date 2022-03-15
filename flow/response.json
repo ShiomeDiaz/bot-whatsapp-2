@@ -2,10 +2,6 @@
     "DEFAULT":{
         "replyMessage":[
             "*Esta respuesta es un respuesta default* cuando no se consigue una palabra clave \n",
-            "la puedes desactivar en tu archivo .env DEFAULT_MESSAGE=false \n",
-            "tambien te quiero recordar que si presentas algun error pasarte por el repositorio \n",
-            "https://github.com/leifermendez/bot-whatsapp#chatbot-whatsapp-opensource \n",
-            "y recuerda tener la ultima versión del proyecto \n\n",
             "Prueba escribiendo *hola* \n"
         ],
         "media":null,
@@ -13,136 +9,666 @@
     },
     "STEP_0":{
         "replyMessage":[
-            "El flujo ha finalizado \n",
-            "pero puedes ver todo el codigo de este \n",
-            "repositorio en https://github.com/leifermendez/bot-whatsapp.git"
+            "El flujo ha finalizado \n"
         ],
         "media":null,
         "trigger":null
     },
     "STEP_1":{
         "replyMessage":[
-            "Hola! y✌️ Bienvenido a este 🤖 CHATBOT de Whatsapp, lo primero \n",
-            "decirte que mi nombre es *Leifer Mendez*😎  \n",
-            "\n Si necesitas ver más info sobre las capacitacion tecnicas ",
-            "escribe *cursos* o *info* o escribe *audio*"
+            "*Conocenos*\n",
+            "Aqui puedes leer todas nuestras propuestas y encontrar nuestras redes sociales!"
         ],
         "media":null,
         "trigger":null,
         "actions":{
-            "title":"¿Que te interesa ver?",
-            "message":"Recuerda todo este contenido es gratis y estaria genial que me siguas!",
+            "title":"Hola! y✌️ Bienvenido a este 🤖 ABOT de Whatsapp",
+            "message":"Si deseas mas información presiona *Info*. \n\n De igual manera puedes visitar nuestras redes sociales *Twitter* y *Instagram* ",
             "footer":"Gracias",
             "buttons":[
-                {"body":"Cursos"},
-                {"body":"Youtube"},
-                {"body":"Telegram"}
+                {"body":"Info"},
+                {"body":"Twitter"},
+                {"body":"Instagram"}
             ]
-        }
+        }         
+
     },
     "STEP_2":{
         "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
+            "¿Sobre cuál de los siguientes ejes estratégicos de mi propuesta te interesa obtener más información?.\n",
+            "Escribe el número del tema que te interese 🙂🤖\n\n",
+            "*1 -->* Excelencia y calidad académica.\n\n",
+            "*2 -->* Generación, uso y apropiación social del conocimiento.\n\n",
+            "*3 -->* Proyección y transferencia del conocimiento al servicio de la sociedad.\n\n",
+            "*4 -->* Crecimiento con calidad y gestión de excelencia.\n\n",
+            "*5 -->* Comunidad universitaria saludable, inclusiva y diversa. \n\n",
+            "*6 -->* Campus universitario sostenible.\n\n",
+            "*7 -->* Sostenibilidad financiera.\n\n"
         ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
+        "media":null,
         "trigger":null
-    },
+        },
     "STEP_2_1":{
         "replyMessage":[
-            "Si te interesa Angular tienes disponible \n",
-            "*(Gratis)* https://bit.ly/367tJ32 \n\n",
-            "*(Pago)* https://link.codigoencasa.com/PROMO-INICIAL \n\n",
-            "*(Pago)* https://link.codigoencasa.com/ANGULAR-BASICO-EDTEAM \n\n",
+            "*Excelencia y calidad académica*\n",
+            "Acciones estratégicas:\n\n",
+            "*1a -->* Soluciones equitativas y acceso a todas las oportunidades de educación que ofrece la Universidad. \n\n",
+            "*2a -->* Formación y Cualificación docente en procesos de enseñanza que promuevan aprendizajes en profundidad. \n\n",
+            "*3a -->* Cualificación Docente que responda a los cambios sociales, económicos, laborales, científicos y tecnológicos y a las necesidades de diferentes generaciones. \n\n",
+            "*4a -->* Educación virtual como complemento de la presencial y desarrollo de competencias digitales. \n\n",
+            "*5a -->* Nuevos programas en respuesta a los retos derivados de las transformaciones de las ciencias, el arte, la cultura, la técnica y la tecnología.  \n\n",
+            "*6a -->* Fortalecimiento de la planta docente y creación de un programa de desarrollo para profesores orientado a su cualificación disciplinar, pedagógica, didáctica y curricular.  \n\n",
+            "*7a -->* Centro de formación y estrategias de aprendizaje orientado al estudiante.  \n\n",
+            "*8a -->* Gestión de excelencia y desarrollo académico con calidad.  \n\n",
+            "Escribe el *número* y su *literal* del tema que te interese \n\n",
             "😎😎😎"
         ],
-        "media":"https://i.imgur.com/Q0a5UQI.jpg",
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_1_1":{
+        "replyMessage":[
+            "*1a --> Excelencia y calidad académica* \n",
+            "Soluciones equitativas y acceso a todas las oportunidades de educación que ofrece la Universidad. \n",
+            "*Compromisos:*\n\n",
+            "• Adecuar la normativa institucional para garantizar mejores condiciones de acceso a la Universidad.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_1_2":{
+        "replyMessage":[
+            "*2a --> Formación y Cualificación docente en procesos de enseñanza que promuevan aprendizajes en profundidad.*\n",
+            "*Compromisos:*\n",
+            "• Implementar una reforma académica y curricular centrada en didáctica de dominio específico que permita a los estudiantes el desarrollo del pensamiento crítico, autonomía intelectual y aprendizajes en profundidad.\n\n",
+            "• Crear un programa de educación continuada permanente y pertinente basada en certificaciones, con base en un modelo modular, orientada a diferentes grupos poblacionales a lo largo de la vida y que responda a las necesidades actuales.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    
+    "STEP_2_1_3":{
+        "replyMessage":[
+            "*3a --> Cualificación Docente que responda a los cambios sociales, económicos, laborales, científicos y tecnológicos y a las necesidades de diferentes generaciones.*\n",
+            "*Compromisos:*\n",
+            "• Implementar estrategias académicas que articulen diferentes modalidades de educación continuada presencial y virtual en asocio con otras entidades nacionales e internacionales para la actualización de conocimiento y el desarrollo de habilidades.\n\n",
+            "• Crear un programa de educación continuada permanente y pertinente basada en certificaciones, con base en un modelo modular, orientada a diferentes grupos poblacionales a lo largo de la vida y que responda a las necesidades actuales.\n\n",
+            "• Fortalecer el vínculo con la empresa y el estado para ofertar programas de educación continua que respondan a las necesidades específicas del sector productivo y social.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_1_4":{
+        "replyMessage":[
+            "*4a --> Educación virtual como complemento de la presencial y desarrollo de competencias digitales.*\n",
+            "*Compromisos:*\n",
+            "• Implementar la Política Institucional de Educación Virtual _Marco_ _Tulio_ _Jaramillo_ _Salazar_ y definir una oferta de programas formales y no formales en esta modalidad.\n\n",
+            "• Fomentar la incorporación de asignaturas virtuales en los programas académicos .\n\n",
+            "• Desarrollar un programa de alfabetización digital para ampliar y mejorar las experiencias de aprendizaje.\n\n",
+            "• Establecer alianzas con diferentes instituciones nacionales e internacionales para ofertar cursos virtuales homologables en pregrado y posgrado.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_1_5":{
+        "replyMessage":[
+            "*5a --> Nuevos programas en respuesta a los retos derivados de las transformaciones de las ciencias, el arte, la cultura, la técnica y la tecnología.*\n",
+            "*Compromisos:*\n",
+            "• Definir lineamientos que orienten la creación de nuevos programas a partir de una oferta focalizada, pertinente y estratégica que conecte el mundo del trabajo con la educación.\n\n",
+            "• Crear nuevos programas pertinentes, relevantes, interdisciplinarios e internacionales en nuevas áreas del conocimiento para responder a los desafíos del entorno.\n\n",
+            "• Fortalecer los procesos de formación por ciclos propedéuticos como estrategia de articulación con la media y crear núcleos básicos para el desarrollo de competencias transversales en artes, humanidades, ciencia y tecnología.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_1_6":{
+        "replyMessage":[
+            "*6a --> Fortalecimiento de la planta docente y creación de un programa de desarrollo para profesores orientado a su cualificación disciplinar, pedagógica, didáctica y curricular.*\n",
+            "*Compromisos:*\n",
+            "• Implementar la propuesta para la formalización docente y aprobar la creación de nuevas plazas a partir del estudio de planta actualizado.\n\n",
+            "• Realizar concursos pertinentes a las necesidades de un desarrollo académico integral e interdisciplinario.\n\n",
+            "• Diseñar e implementar un programa de desarrollo para profesores que permita una cualificación docente y pedagógica permanente y fortalecer la formación doctoral de docentes independiente de su tipo de vinculación.\n\n",
+            "• Crear un banco de recursos digitales que brinden herramientas a los docentes como soporte de sus actividades pedagógicas.\n\n",
+            "• Crear espacios de interacción y de retroalimentación entre docentes que generen un diálogo entorno a las diferentes prácticas en el aula y la innovación educativa.\n\n",
+            "• Crear un programa de segunda lengua (Inglés) para docentes y estudiantes orientado a cualificar la práctica pedagógica y el impacto de los procesos y resultados de la investigación y la proyección.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_1_7":{
+        "replyMessage":[
+            "*7a --> Centro de formación y estrategias de aprendizaje orientado al estudiante.*\n",
+            "*Compromisos:*\n",
+            "• Formular e implementar un plan estratégico de éxito estudiantil que permita realizar seguimiento académico y formular acciones que permitan incidir en las variables que afectan su desempeño y el logro del aprendizaje.\n\n",
+            "• Diseñar e implementar un servicio de consejería académica para ampliar y fortalecer los escenarios de acompañamiento a los estudiantes en su desempeño académico.\n\n",
+            "• Crear un centro de desarrollo del aprendizaje como espacio para dinamizar procesos de enseñanza y para fortalecer prácticas pedagógicas innovadoras.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    
+    "STEP_2_1_8":{
+        "replyMessage":[
+            "*8a --> Gestión de excelencia y desarrollo académico con calidad.*\n",
+            "*Compromisos:*\n",
+            "• Consolidar un equipo de apoyo administrativo que facilite la elaboración de informes de autoevaluación como soporte para la acreditación de los programas.\n\n",
+            "• Avanzar en la identificación, caracterización y mejora de condiciones institucionales para la acreditación de programas técnicos, tecnológicos, profesionales y de posgrado.\n\n",
+            "• Identificar y consolidar las condiciones que posibiliten la autoevaluación y acreditación internacionales de los programas.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
         "trigger":null
     },
     "STEP_2_2":{
         "replyMessage":[
-            "Si te interesa NODE tienes disponible \n",
-            "*(Gratis)* https://bit.ly/3od1Bl6 \n\n",
-            "Espero pronto tener más material disponible",
-            "🤖"
+            "*Generación, uso y apropiación social del conocimiento.* \n",
+            "Acciones estratégicas:\n\n",
+            "*1b -->* Gestión estratégica de proyectos para el desarrollo de la investigación. \n\n",
+            "*2b -->* Internacionalización y visibilidad de la investigación. \n\n",
+            "*3b -->* Investigación transformativa para la solución de desafíos sociales, económicos y ambientales. \n\n",
+            "*4b -->* Infraestructura científica y tecnológica para la investigación. \n\n",
+            "*5b -->* Conocimiento como bien público e implementación de la ciencia abierta.\n\n",
+            "*6b -->* Transferencia e impacto del conocimiento generado.\n\n",
+            "Escribe el numero y su literal del tema que te interese \n\n",
+            "😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_2_1":{
+        "replyMessage":[
+            "*1b --> Gestión estratégica de proyectos para el desarrollo de la investigación.* \n",
+            "*Compromisos:*\n\n",
+            "• Consolidar los procesos de apoyo y acompañamiento a los investigadores en la gestión de proyectos y en el uso de metodologías y plataformas para la presentación a convocatorias nacionales e internacionales.\n\n",
+            "• Implementar un sistema de información que apoye la gestión de proyectos de investigación para optimizar su registro, seguimiento y evaluación.\n\n",
+            "• Implementar un proceso de vigilancia de convocatorias nacionales e internacionales de investigación que permita ampliar las fuentes de financiación externa.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_2_2":{
+        "replyMessage":[
+            "*2b --> Internacionalización y visibilidad de la investigación.*\n",
+            "*Compromisos:*\n",
+            "• Conformar y participar en redes académicas y de investigación que propicien la generación de conocimiento, el desarrollo de proyectos conjuntos y la producción científica colaborativa.\n\n",
+            "• Fortalecer el intercambio entre investigadores y creadores en el ámbito nacional e internacional a través de la realización de estancias y pasantías de investigación-creación.\n\n",
+            "• Implementar una estrategia para el registro y organización de la producción científica de los investigadores de la institución en las diferentes plataformas de identificadores digitales que permitan la visibilidad de los investigadores y de la institución y mejorar el impacto. (ORCID, Google Académico, Scopus ID, Publons, Research ID).\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    
+    "STEP_2_2_3":{
+        "replyMessage":[
+            "*3b --> Investigación transformativa para la solución de desafíos sociales, económicos y ambientales.*\n",
+            "*Compromisos:*\n",
+            "• Desarrollar y ejecutar programas estratégicos de investigación a partir de las agendas de CT+I definidas en la Institución.\n\n",
+            "• Articular las líneas de investigación a los ODS y a otros referentes del contexto para desarrollar una investigación pertinente que contribuya a la solución transformativa de problemas del entorno global y local.\n\n",
+            "• Realizar convocatorias que tengan como horizonte el desarrollo de programas y proyectos estratégicos que involucren transversalmente diferentes áreas del conocimiento y fortalezcan el trabajo interdisciplinario.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_2_4":{
+        "replyMessage":[
+            "*4b --> Infraestructura científica y tecnológica para la investigación.*\n",
+            "*Compromisos:*\n",
+            "• Implementar un plan estratégico orientado al reconocimiento de centros e institutos de investigación, desarrollo tecnológico e innovación por el SNCTI y definir lineamientos que permitan potenciarlos como articuladores de las áreas y programas estratégicos definidos por la Institución.\n\n",
+            "• Realizar un inventario de capacidades científico-tecnológicas de la institución que permita identificar y fortalecer capacidades, visibilizar potencialidades, compartir tecnologías y priorizar nuevas inversiones.\n\n",
+            "• Implementar un sistema de gestión para consolidar una red de laboratorios de investigación que integre planes de mantenimiento, calibración, modernización y posibilite la venta de servicios.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_2_5":{
+        "replyMessage":[
+            "*5b --> Conocimiento como bien público e implementación de la ciencia abierta.*\n",
+            "*Compromisos:*\n",
+            "• Consolidar el proceso editorial de las revistas científicas a través de la herramienta del Open Journal Systems.\n\n",
+            "• Conformar un repositorio de datos que permita poner a disposición los resultados y protocolos de los procesos de investigación para ser usados por otros investigadores y por el público.\n\n",
+            "• Participar en redes nacionales e internacionales de datos abiertos que permitan mejorar y medir el impacto de la investigación.\n\n",
+            "• Diseñar e implementar una estrategia para la publicación de artículos científicos en acceso abierto.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_2_6":{
+        "replyMessage":[
+            "*6b --> Transferencia e impacto del conocimiento generado.*\n",
+            "*Compromisos:*\n",
+            "• Diseñar un programa de relacionamiento con el sector público y privado orientado a fortalecer la participación de la Institución en escenarios del ecosistema regional de CT+I con el fin de desarrollar acciones conjuntas orientadas a la transferencia de conocimiento y tecnología.\n\n",
+            "• Fortalecer la actual estrategia de acompañamiento que permita incrementar los niveles de madurez de los productos de investigación para lograr su transferencia tecnológica.\n\n",
+            "• Diseñar portafolios de propiedad intelectual y de prestación de servicios especializados para fortalecer las capacidades de transferencia de resultados de investigación.\n\n",
+            "• Fortalecer la Oficina de Transferencia de Resultados de Investigación (OTRI) de la Institución como estructura de interface para la transferencia de conocimiento y de tecnología.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
         ],
         "media":null,
         "trigger":null
     },
     "STEP_2_3":{
         "replyMessage":[
-            "NGRX para manejar estados en Angular \n",
-            "*(Gratis)* https://bit.ly/ngrx-desde-cero \n",
-            "A darle! 😮"
+            "*Proyección y transferencia del conocimiento al servicio de la sociedad.* \n",
+            "Acciones estratégicas:\n\n",
+            "*1c -->* Regionalización con enfoque territorial. \n\n",
+            "*2c -->* Orientación, formación y apoyo para la vida profesional y el emprendimiento de los graduados. \n\n",
+            "*3c -->* Preservación y gestión del patrimonio científico y cultural. \n\n",
+            "*4c -->* Relacionamiento internacional con impacto académico. \n\n",
+            "*5c -->* Relacionamiento estratégico interinstitucional.\n\n",
+            "*6c -->* Visibilidad y reputación nacional e internacional.\n\n",
+            "*7c -->* Apropiación social del conocimiento e innovación pública.\n\n",
+            "Escribe el numero y su literal del tema que te interese \n\n",
+            "😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3_1":{
+        "replyMessage":[
+            "*1c --> Regionalización con enfoque territorial.* \n",
+            "*Compromisos:*\n\n",
+            "• Fortalecer la oferta académica en la nueva sede Magdalena Centro con programas regulares pertinentes y asequibles a la población de esta región del país y dinamizar programas y proyectos del Centro de Innovación en alianza con actores regionales.\n\n",
+            "• Identificar necesidades en las diferentes regiones donde tiene presencia la Institución para diseñar una oferta académica de alta calidad y una estrategia articulada de proyectos de investigación y proyección que dinamice procesos de transformación social y desarrollo del territorio.\n\n",
+            "• Acompañar la conformación de nodos en las diferentes regiones en el marco del nuevo modelo de educación rural del MEN formulado por la Universidad de Caldas.\n\n",
+            "• Articular las prácticas académicas de los estudiantes a macro proyectos de carácter interdisciplinario que permitan responder en alianza con actores locales a las necesidades de los territorios.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3_2":{
+        "replyMessage":[
+            "*2c --> Orientación, formación y apoyo para la vida profesional y el emprendimiento de los graduados.*\n",
+            "*Compromisos:*\n",
+            "• Diseñar e implementar un programa de empleabilidad orientado a estudiantes y egresados que permita su inserción laboral.\n\n",
+            "• Desarrollar una estrategia dirigida a la formación posgradual de los graduados de la Institución como estrategia de fortalecimiento de los programas de posgrado y la cualificación de alto nivel de los egresados.\n\n",
+            "• Diseñar e implementar una estrategia para mejorar la reputación y el posicionamiento de la Institución y de los graduados ante los empleadores conducente a ampliar las oportunidades laborales.\n\n",
+            "• Fortalecer el programa de emprendimiento para estudiantes y egresados que permita transformar sus ideas en negocios productivos, rentables y sostenibles articulado al sistema de emprendimiento de la ciudad.\n\n",
+            "• Establecer un portafolio de servicios para los estudiantes y graduados en:  orientación laboral, gestión del primer empleo, asesorías y mentorías y de otras estrategias como ferias de empleo para incrementar la presencia de empleadores en los campus y las oportunidades de empleo.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    
+    "STEP_2_3_3":{
+        "replyMessage":[
+            "*3c --> Preservación y gestión del patrimonio científico y cultural.*\n",
+            "*Compromisos:*\n",
+            "• Realizar una identificación y caracterización del patrimonio y de las colecciones científicas de la Institución para conocer su estado y condiciones.\n\n",
+            "• Definir lineamientos orientados a la conservación, protección y visibilización del patrimonio científico y cultural de la Institución y las colecciones científicas.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3_4":{
+        "replyMessage":[
+            "*4c --> Relacionamiento internacional con impacto académico.*\n",
+            "*Compromisos:*\n",
+            "• Implementar una estrategia de internacionalización integral y transversal que defina una agenda de diplomacia científica para consolidar la cooperación internacional orientada al fortalecimiento de los procesos académicos para responder a retos globales.\n\n",
+            "• Insertarse en redes académicas nacionales e internacionales que favorezcan el relacionamiento bilateral de los docentes con sus pares y de la Institución con sus socios para consolidar nuevas oportunidades de desarrollo académico e institucional, fomentar el trabajo colaborativo y la cooperación científica.\n\n",
+            "• Establecer vínculos de cooperación científica y tecnológica en temas prioritarios para el desarrollo institucional que permitan la gestión de recursos externos, la transferencia de conocimiento y la adopción de mejores prácticas para la gestión académica y administrativa.\n\n",
+            "• Definir una ruta institucional orientada a la incorporación de una dimensión internacional en los currículos, al fomento de la doble titulación y a la acreditación internacional de los programas.\n\n",
+            "• Fomentar la movilidad académica internacional presencial y virtual de docentes y estudiantes como estrategia para contribuir a la internacionalización de los currículos y al desarrollo de competencias interculturales.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3_5":{
+        "replyMessage":[
+            "*5c --> Relacionamiento estratégico interinstitucional.*\n",
+            "*Compromisos:*\n",
+            "• Formular una agenda de relacionamiento interinstitucional que defina un ruta de actuación estratégica y colaborativa entre universidad, empresa, estado y sociedad, que permita la articulación de acciones, iniciativas y proyectos conjuntos.\n\n",
+            "• Desarrollar un plan estratégico de comunicación externa dirigido a los diferentes grupos de interés orientado a establecer y consolidar vínculos de confianza y colaboración.\n\n",
+            "• Institucionalizar un espacio de conversación e interacción con actores claves externos para la difusión y socialización de resultados y productos académicos y científicos que permitan crear vínculos entre la institución en sus diferentes niveles y el sector público, privado y la sociedad civil.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3_6":{
+        "replyMessage":[
+            "*6c --> Visibilidad y reputación nacional e internacional.*\n",
+            "*Compromisos:*\n",
+            "• Definir una estrategia para el posicionamiento de la Universidad en mediciones internacionales de reputación académica.\n\n",
+            "• Formular una estrategia para incrementar la consulta de documentos en redes sociales, sitio web de la Universidad y Mendeley y de esta manera lograr una mayor visibilidad de la producción institucional.  \n\n",
+            "• Optimizar el sitio web institucional para garantizar su visibilidad en las páginas de resultados y en los motores de búsqueda.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_3_7":{
+        "replyMessage":[
+            "*7c --> Apropiación social del conocimiento e innovación pública.*\n",
+            "*Compromisos:*\n",
+            "• Definir una estrategia para fortalecer los procesos de inclusión, impacto, y cultura de CTI y la comunicación pública del quehacer científico institucional.\n\n",
+            "• Fortalecer el Centro de Ciencia Francisco José de Caldas como actor clave en la ciudad y la región para desarrollar procesos de apropiación social y acercar los niños, jóvenes y la población a la CTI.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
         ],
         "media":null,
         "trigger":null
     },
     "STEP_2_4":{
         "replyMessage":[
-            "Muy bien AWS esta pronto a salir pre-registrate aquí \n",
-            "*(Pre-registro)* https://link.codigoencasa.com/AWS-BASICO-INVITACION \n",
-            "😮😮"
+            "*Crecimiento con calidad y gestión de excelencia.* \n",
+            "Acciones estratégicas:\n\n",
+            "*1d -->* Sistemas integrados de gestión, información y control para la toma de decisiones. \n\n",
+            "*2d -->* Inteligencia organizacional para la generación de valor en el cumplimiento de los objetivos institucionales.\n\n",
+            "*3d -->* Cultura de la calidad en la prestación de los servicios.\n\n",
+            "*4d -->* Sistemas integrados de comunicación e información.\n\n",
+            "*5d -->* Gobierno digital como soporte de la gestión institucional.\n\n",
+            "*6d -->* Integración y actualización normativa.\n\n",
+            "Escribe el numero y su literal del tema que te interese \n\n",
+            "😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_4_1":{
+        "replyMessage":[
+            "*1d --> Regionalización con enfoque territorial.* \n",
+            "*Compromisos:*\n\n",
+            "• Continuar con la implementación del Modelo Integrado de Planeación y Gestión como estrategia para mejorar el desempeño administrativo y lograr mayor eficiencia en los procesos institucionales.\n\n",
+            "• Implementar el rediseño institucional como insumo para incrementar el número de cargos, rediseñar los perfiles y las funciones de la planta administrativa y de esta manera mejorar las capacidades en recurso humano y modernizar la gestión.\n\n",
+            "• Implementar un programa de evaluación y mejora de los procesos y procedimientos institucionales que permita simplificar trámites y mejorar la eficiencia y eficacia de las funciones administrativas obteniendo mayor capacidad de gestión.\n\n",
+            "• Diseñar e implementar un modelo de captura, procesamiento, visualización y uso masivo de datos que permitan una gestión estratégica de la información basada en indicadores para la toma de decisiones y el aseguramiento de la calidad administrativa y académica.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_4_2":{
+        "replyMessage":[
+            "*2d --> Inteligencia organizacional para la generación de valor en el cumplimiento de los objetivos institucionales.*\n",
+            "*Compromisos:*\n",
+            "• Implementar un modelo de gestión del conocimiento que permita desarrollar proyectos de innovación y mejora en la gestión administrativa de la universidad.\n\n",
+            "• Diseñar un Plan Estratégico para la Gestión del Talento Humano que incorpore las mejores prácticas en la administración del personal, fortaleciendo la capacidad de gestión y la satisfacción de los servidores públicos con la institución.\n\n",
+            "• Ampliar el plan institucional de capacitación para funcionarios administrativos, generando nuevos aprendizajes colectivos según las necesidades institucionales.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_4_3":{
+        "replyMessage":[
+            "*3d --> Cultura de la calidad en la prestación de los servicios.*\n",
+            "*Compromisos:*\n",
+            "• Implementar un modelo de liderazgo transformacional que genere procesos de cambio hacia una cultura de servicio al usuario, de compromiso institucional y de bien-estar laboral.\n\n",
+            "• Otorgar estímulos y reconocimientos a los funcionarios administrativos y docentes que practiquen los principios y valores asociados al servicio público.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_4_4":{
+        "replyMessage":[
+            "*4d --> Sistemas integrados de comunicación e información.*\n",
+            "*Compromisos:*\n",
+            "• Implementar un modelo de liderazgo transformacional que genere procesos de cambio Integrar la administración y el reporte de información pertinente, actualizada y oportuna a las unidades académico-administrativas para facilitar su gestión.\n\n",
+            "• Concluir la estrategia de modernización e integración de los sistemas de información institucionales (SIA, SARA, Sistema Financiero, SIG, entre otros).\n\n",
+            "• Rendir cuentas de manera permanente sobre la gestión realizada, a través de la implementación de mecanismos masivos de comunicación e interacción entre la Universidad y la ciudadanía.\n\n",
+            "• Implementar la estrategia de datos abiertos en articulación con las disposiciones gubernamentales, con el fin de mejorar la disponibilidad y uso público de la información institucional.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_4_5":{
+        "replyMessage":[
+            "*5d --> Gobierno digital como soporte de la gestión institucional.*\n",
+            "*Compromisos:*\n",
+            "• Fortalecer el programa de Ciberseguridad que permita contar con directrices, políticas, lineamientos y prácticas seguras por parte de la comunidad universitaria protegiendo los activos de información de la institución.\n\n",
+            "• Ejecutar la fase II del Proyecto de Infraestructura Tecnológica que pemita continuar con la renovación de los equipos activos de red y el cableado estructurado a categorías 5 E y 6, como respuesta a los desafíos tecnológicos y digitales.\n\n",
+            "• Implementar un plan de renovación de equipos de computo, de manera que los funcionarios administrativos cuenten con las herramientas necesarias para una óptima ejecución de sus funciones.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_4_6":{
+        "replyMessage":[
+            "*6d --> Integración y actualización normativa.*\n",
+            "*Compromisos:*\n",
+            "• Integrar, actualizar y socializar las normas internas por áreas de gestión para facilitar su consulta y aplicación.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_5":{
+        "replyMessage":[
+            "*Comunidad universitaria saludable, inclusiva y diversa.* \n",
+            "Acciones estratégicas:\n\n",
+            "*1e -->* El bien-estar como desarrollo de capacidades de los diferentes integrantes de la comunidad universitaria.\n\n",
+            "*2e -->* Comunidad universitaria saludable.\n\n",
+            "*3e -->* Ambiente institucional respetuoso de la diversidad y las diferencias.\n\n",
+            "😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_5_1":{
+        "replyMessage":[
+            "*1e --> El bien-estar como desarrollo de capacidades de los diferentes integrantes de la comunidad universitaria.* \n",
+            "*Compromisos:*\n\n",
+            "• Construir un modelo de bien-estar universitario centrado en la responsabilidad individual y colectiva.\n\n",
+            "• Fomentar la participación estudiantil en la vida universitaria y el desarrollo de un liderazgo proactivo.\n\n",
+            "• Fomentar el desarrollo de talentos y habilidades para la vida que favorezcan el bien-estar integral, el desarrollo de competencias ciudadanas e interpersonales.\n\n",
+            "• Desarrollar capacidades en los estudiantes para potencializar e incentivar la generación de ideas creativas con proyectos asociados al emprendimiento y la empleabilidad.\n\n",
+            "• Generar espacios para la apreciación, aprendizaje y disfrute del arte, la cultura y el deporte que contribuyan a la formación de gustos y valores estéticos en la comunidad universitaria.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_5_2":{
+        "replyMessage":[
+            "*2e --> Comunidad universitaria saludable.*\n",
+            "*Compromisos:*\n",
+            "• Implementar la política de universidad promotora de salud y de salud mental para fortalecer las capacidades individuales y colectivas de los integrantes de la comunidad universitaria, promover y adoptar estilos de vida saludables y afrontar los desafíos de la vida cotidiana.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_5_3":{
+        "replyMessage":[
+            "*3e --> Ambiente institucional respetuoso de la diversidad y las diferencias.*\n",
+            "*Compromisos:*\n",
+            "• Establecer el programa de universidad inclusiva de conformidad con los lineamientos del Ministerio de Educación, de manera que se avance en forma más decidida en acciones de respeto a la diferencia y la no discriminación.\n\n",
+            "• Continuar con la implementación de la política de género y diversidad y promover un ambiente universitario respetuoso de la diversidad como una práctica cotidiana y habitual.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_6":{
+        "replyMessage":[
+            "*Campus universitario sostenible.* \n",
+            "Acciones estratégicas:\n\n",
+            "*1f -->* Desarrollo de la planta física en el marco de un plan maestro de infraestructura inclusivo y ambientalmente responsable.\n\n",
+            "*2f -->* Sistema georreferenciado de adecuación, mantenimiento y uso de los espacios.\n\n",
+            "*3f -->* Gestión ambiental con responsabilidad social.\n\n",
+            "*4f -->* Identificación y caracterización del patrimonio ambiental de los diferentes campus.\n\n",
+            "*5f -->* Adopción e incorporación de tecnologías limpias.\n\n",
+            "Escribe el numero y su literal del tema que te interese \n\n",
+            "😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_6_1":{
+        "replyMessage":[
+            "*1f --> Desarrollo de la planta física en el marco de un plan maestro de infraestructura inclusivo y ambientalmente responsable.* \n",
+            "*Compromisos:*\n\n",
+            "• Formular lineamientos que orienten el crecimiento de los campus y la adecuación de edificios para garantizar el desarrollo de la infraestructura y una ocupación ordenada del espacio con base en las necesidades de las diferentes unidades y a partir de criterios de sostenibilidad y construcción verde.\n\n",
+            "• Realizar un inventario de los activos en infraestructura física y natural de los diferentes campus y elaborar un plan maestro para el crecimiento, acceso y disponibilidad de espacios y mobiliario.\n\n",
+            "• Llevar a cabo los estudios de viabilidad según la etapa que corresponda de los proyectos estratégicos de infraestructura para garantizar el inicio de la ejecución de las obras con base en prioridades y disponibilidad de recursos: IPS Universitaria, Edificio El Parque, Edificio de laboratorios, residencias femeninas, nuevo edificio de Ingeniería Mecatrónica, renovación del Consultorio Jurídico, nuevo bloque de la Clínica Veterinaria, traslado de oficinas administrativas.\n\n",
+            "• Mejorar el equipamiento y mobiliario de las instalaciones en el campus: Deportivas (fase II Velódromo), culturales (Teatros y teatrinos al aire libre), religiosas (Diferentes prácticas religiosas), arte (museos), espacios para la diversidad funcional, salas de estudio.\n\n",
+            "• Ejecutar el convenio interinstitucional con la Alcaldía de Manizales para el mejoramiento del hábitat y uso de espacio público en el parque La Gotera como proyecto estratégico de ciudad.\n\n",
+            "• Gestionar un convenio con la Alcaldía de Manizales para desarrollar el proyecto de Investigación e Innovación Tecnológica y Educativa en el INEM para posibilitar la ampliación de las instalaciones universitarias.\n\n",
+            "• Consolidar el proyecto del Jardín Botánico como aula viva donde se garantice la interacción con el medio ambiente de la comunidad universitaria y de la comunidad en general.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_6_2":{
+        "replyMessage":[
+            "*2f --> Sistema georreferenciado de adecuación, mantenimiento y uso de los espacios.*\n",
+            "*Compromisos:*\n",
+            "• Implementar un sistema de información para la administración de los espacios que permita la asignación, disposición, adecuación y evaluación del uso de las aulas y de los espacios universitarios, a partir de necesidades y criterios de prioridad.\n\n",
+            "• Implementar un sistema de información que permita registrar los requerimientos y las acciones de mantenimiento preventivo y correctivo de los espacios institucionales, así como el seguimiento a su ejecución.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_6_3":{
+        "replyMessage":[
+            "*3f --> Gestión ambiental con responsabilidad social.*\n",
+            "*Compromisos:*\n",
+            "• Definir e implementar un programa de uso de energías renovables, de renovación de la infraestructura energética y de uso eficiente de la misma con el fin de reducir y optimizar su consumo.\n\n",
+            "• Formular e implementar un proyecto para reducir paulatinamente el uso de vehículos en los diferentes campus y la reducción de parqueaderos, para contribuir a la disminución de emisiones y fomentar la actividad física y el uso de transporte alternativo.\n\n",
+            "• Fortalecer el programa que se desarrolla con la Planta de Bioprocesos para la utilización y aprovechamiento de residuos orgánicos, extendiendo el alcance a aliados estratégicos de la ciudad.\n\n",
+            "• Fortalecer el programa para el manejo de residuos peligrosos generados en las actividades de laboratorios y prácticas académicas con el fin de llevar a cabo una adecuada identificación, manejo y disposición de los mismos.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_6_4":{
+        "replyMessage":[
+            "*4f --> Identificación y caracterización del patrimonio ambiental de los diferentes campus.*\n",
+            "*Compromisos:*\n",
+            "• Realizar un inventario del patrimonio natural y ambiental para conocer su estado y condiciones.\n\n",
+            "• Definir lineamientos orientados a la conservación, protección y visibilización del patrimonio natural y ambiental de la Institución.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_6_5":{
+        "replyMessage":[
+            "*5f --> Adopción e incorporación de tecnologías limpias.*\n",
+            "*Compromisos:*\n",
+            "• Definir y ejecutar un proyecto para la adopción de tecnologías limpias que reduzcan el consumo de agua y energía y optimicen el manejo de residuos.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_7":{
+        "replyMessage":[
+            "*Sostenibilidad financiera.* \n",
+            "Acciones estratégicas:\n\n",
+            "*1g -->* Liderar las acciones gremiales del SUE en la gestión de la reforma a la política pública para la financiación de la educación superior pública.\n\n",
+            "*2g -->* Diversificación de fuentes de ingreso e incremento de recursos propios.\n\n",
+            "*3g -->* Planeación financiera para una correcta asignación y uso eficiente de los recursos.\n\n",
+            "*4g -->* Lograr el equilibrio presupuestal en funcionamiento a 2026.\n\n",
+            "*5g -->* Gestión estratégica de proyectos para el desarrollo institucional.\n\n",
+            "*6g -->* Incremento de la apropiación presupuestal para inversión proveniente de fuentes diversas de nuevos ingresos.\n\n",
+            "Escribe el numero y su literal del tema que te interese \n\n",
+            "😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_7_1":{
+        "replyMessage":[
+            "*1g --> Liderar las acciones gremiales del SUE en la gestión de la reforma a la política pública para la financiación de la educación superior pública.* \n",
+            "*Compromisos:*\n\n",
+            "• Liderar acciones sectoriales para la expedición de la reforma a la Ley 30 de 1992 en sus artículos 86 y 87 con base en _el_ _Modelo_ _de_ _Asignación_ _de_ _Recursos_ _del_ _SUE_, a través de la representación de la Universidad de Caldas en el Comité Asesor del Consejo Nacional del Sistema Universitario Estatal (SUE).\n\n",
+            "• Realizar gestiones con el Congreso y el Ministerio de Hacienda y Crédito Público para la aplicación de la Sentencia C-346 de 2021 de manera que proteja la autonomía universitaria, utilice criterios de logro y eficiencia para acceder a recursos adicionales y para que el giro de dichos recursos responda a las necesidades de las universidades públicas.\n\n",
+            "• Participar activamente en las mesas técnicas del SUE para lograr una mayor conveniencia en la consecución y distribución de recursos adicionales a la base presupuestal y bolsas concursables de la Nación.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_7_2":{
+        "replyMessage":[
+            "*2g --> Diversificación de fuentes de ingreso e incremento de recursos propios.*\n",
+            "*Compromisos:*\n",
+            "• Continuar fortaleciendo las fuentes actuales de ingresos e identificar nuevas fuentes que permitan obtener una oferta definida y competitiva de servicios institucionales.\n\n",
+            "• Gestionar recursos de inversión de fuentes externas, a través de la formulación de proyectos estratégicos liderados por el nivel central para el fortalecimiento de capacidades en infraestructura física y tecnológica de la institución.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_7_3":{
+        "replyMessage":[
+            "*3g --> Planeación financiera para una correcta asignación y uso eficiente de los recursos.*\n",
+            "*Compromisos:*\n",
+            "• Elaborar un estudio de los fondos especiales que permita definir acciones estratégicas para obtener una gestión más eficiente de los recursos.\n\n",
+            "• Establecer metas financieras de ingresos y gastos que integren los diferentes niveles de gestión para el fortalecimiento de los fondos del nivel central y de las facultades.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_7_4":{
+        "replyMessage":[
+            "*4g --> Lograr el equilibrio presupuestal en funcionamiento a 2026.*\n",
+            "*Compromisos:*\n",
+            "• Ejecutar acciones estratégicas definidas en el marco fiscal institucional que logre anticipadamente una apropiación inicial con ingresos propios y Nación que cubra los gastos de funcionamiento.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_7_5":{
+        "replyMessage":[
+            "*5g --> Gestión estratégica de proyectos para el desarrollo institucional.*\n",
+            "*Compromisos:*\n",
+            "• Implementar un modelo administrativo para la gestión de proyectos con financiación externa que garantice un apoyo efectivo para la ejecución exitosa de los mismos, fortalecer las capacidades institucionales y lograr una mayor inversión.\n\n",
+            "• Realizar un análisis técnico de procedimientos y trámites institucionales que permita identificar y subsanar debilidades para optimizar la gestión de los proyectos.\n\n",
+            "• Fortalecer el modelo de costos y presupuestos del nivel central y de los fondos especiales y articularlo a los sistemas de información para mejorar la gestión financiera y presupuestal y garantizar una ejecución de los recursos acorde a la planificación realizada.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
+        ],
+        "media":null,
+        "trigger":null
+    },
+    "STEP_2_7_6":{
+        "replyMessage":[
+            "*6g --> Incremento de la apropiación presupuestal para inversión proveniente de fuentes diversas de nuevos ingresos.*\n",
+            "*Compromisos:*\n",
+            "• Gestionar fuentes de ingresos propios y Nación para inversión que garanticen la ejecución de los proyectos estratégicos del Plan de Desarrollo Institucional y del Plan de Acción Institucional 2022-2026.\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
         ],
         "media":null,
         "trigger":null
     },
     "STEP_3":{
         "replyMessage":[
-            "¿Ok cual curso de intereso? \n",
-            "*angular* , *node*, *ngrx*, *aws*"
+            "Perfil de Insta \n",
+            "aqui link \n"
         ],
         "media":null,
         "trigger":null
     },
+
     "STEP_4":{
         "replyMessage":[
-            "Gracias a ti! \n"
-        ],
-        "media":"https://media4.giphy.com/media/hur0SFIU5SH4mxNBWa/giphy.gif",
-        "trigger":null
-    },
-    "STEP_5":{
-        "replyMessage":[
-            "Muy bien te comparto el canal de Youtube \n",
-            "https://youtube.com/leifermendez \n"
+            "Ven a nuestro Twitter \n",
+            "Aqui link \n"
         ],
         "media":null,
-        "trigger":null
-    },
-    "STEP_6":{
-        "replyMessage":[
-            "Perfecto, te voy a pasar la lista ",
-            "de los temas que tengo y un breve video 🙂🤖 \n\n",
-            "*Angular* Basico (Pago) \n",
-            "*Angular* Basico (Gratis) \n",
-            "*Node* Basico (Gratis) \n",
-            "*NGRX* Basico (Gratis) \n",
-            "*AWS* Basico (Pago) \n\n",
-            "Escribe la palabra del tema que te interese \n"
-        ],
-        "media":"https://i.giphy.com/media/5J5gN0WUk0VToHaK2p/giphy-downsized.gif",
-        "trigger":null
-    },
-    "STEP_7":{
-        "replyMessage":[
-            "Vente al telegram \n",
-            "https://t.me/leifermendez \n"
-        ],
-        "media":null,
-        "trigger":null
-    },
-    "STEP_8":{
-        "replyMessage":[
-            "Esto es una nota de voz \n"
-        ],
-        "media":"nota-de-voz.mp3",
         "trigger":null
     }
 }

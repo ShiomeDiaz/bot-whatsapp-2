@@ -5,89 +5,323 @@
             "hola!",
             "ola",
             "ole",
-            "inicio",
             "welcome",
             "buenos días",
             "buenas tardes",
             "buenas noches",
             "me dieron este número",
-            "venden a crédito",
-            "quisiera saber si venden",
-            "necesito saber"
+            "necesito saber",
+            ""
         ],
         "key": "STEP_1"
     },
     {
         "keywords":  [
-            "cursos",
             "info",
-            "curso"        ],
+            "inicio"
+        ],
         "key": "STEP_2"
     },
     {
         "keywords":  [
-            "angular"
+            "1"
         ],
         "key": "STEP_2_1"
     },
     {
         "keywords":  [
-            "node"
+            "1a"
+        ],
+        "key": "STEP_2_1_1"
+    },
+    {
+        "keywords":  [
+            "2a"
+        ],
+        "key": "STEP_2_1_2"
+    },
+    {
+        "keywords":  [
+            "3a"
+        ],
+        "key": "STEP_2_1_3"
+    },
+    {
+        "keywords":  [
+            "4a"
+        ],
+        "key": "STEP_2_1_4"
+    },
+    {
+        "keywords":  [
+            "5a"
+        ],
+        "key": "STEP_2_1_5"
+    },
+    {
+        "keywords":  [
+            "6a"
+        ],
+        "key": "STEP_2_1_6"
+    },
+    {
+        "keywords":  [
+            "7a"
+        ],
+        "key": "STEP_2_1_7"
+    },
+    
+    {
+        "keywords":  [
+            "8a"
+        ],
+        "key": "STEP_2_1_8"
+    },
+    {
+        "keywords":  [
+            "2"
         ],
         "key": "STEP_2_2"
     },
     {
         "keywords":  [
-            "ngrx"
+            "1b"
+        ],
+        "key": "STEP_2_2_1"
+    },
+    {
+        "keywords":  [
+            "2b"
+        ],
+        "key": "STEP_2_2_2"
+    },
+    {
+        "keywords":  [
+            "3b"
+        ],
+        "key": "STEP_2_2_3"
+    },
+    {
+        "keywords":  [
+            "4b"
+        ],
+        "key": "STEP_2_2_4"
+    },
+    {
+        "keywords":  [
+            "5b"
+        ],
+        "key": "STEP_2_2_5"
+    },
+    {
+        "keywords":  [
+            "6b"
+        ],
+        "key": "STEP_2_2_6"
+    },
+    {
+        "keywords":  [
+            "3"
         ],
         "key": "STEP_2_3"
     },
     {
         "keywords":  [
-            "aws"
+            "1c"
+        ],
+        "key": "STEP_2_3_1"
+    },
+    {
+        "keywords":  [
+            "2c"
+        ],
+        "key": "STEP_2_3_2"
+    },
+    {
+        "keywords":  [
+            "3c"
+        ],
+        "key": "STEP_2_3_3"
+    },
+    {
+        "keywords":  [
+            "4c"
+        ],
+        "key": "STEP_2_3_4"
+    },
+    {
+        "keywords":  [
+            "5c"
+        ],
+        "key": "STEP_2_3_5"
+    },
+    {
+        "keywords":  [
+            "6c"
+        ],
+        "key": "STEP_2_3_6"
+    },
+    {
+        "keywords":  [
+            "7c"
+        ],
+        "key": "STEP_2_3_7"
+    },
+    {
+        "keywords":  [
+            "4"
         ],
         "key": "STEP_2_4"
     },
     {
         "keywords":  [
-            "asesor",
-            "asesores",
-            "Vendedor",
-            "cobrador"
+            "1d"
+        ],
+        "key": "STEP_2_4_1"
+    },
+    {
+        "keywords":  [
+            "2d"
+        ],
+        "key": "STEP_2_4_2"
+    },
+    {
+        "keywords":  [
+            "3d"
+        ],
+        "key": "STEP_2_4_3"
+    },
+    {
+        "keywords":  [
+            "4d"
+        ],
+        "key": "STEP_2_4_4"
+    },
+    {
+        "keywords":  [
+            "5d"
+        ],
+        "key": "STEP_2_4_5"
+    },
+    {
+        "keywords":  [
+            "6d"
+        ],
+        "key": "STEP_2_4_6"
+    },
+    {
+        "keywords":  [
+            "5"
+        ],
+        "key": "STEP_2_5"
+    },
+    {
+        "keywords":  [
+            "1e"
+        ],
+        "key": "STEP_2_5_1"
+    },
+    {
+        "keywords":  [
+            "2e"
+        ],
+        "key": "STEP_2_5_2"
+    },
+    {
+        "keywords":  [
+            "3e"
+        ],
+        "key": "STEP_2_5_3"
+    },
+    {
+        "keywords":  [
+            "6"
+        ],
+        "key": "STEP_2_6"
+    },
+    {
+        "keywords":  [
+            "1f"
+        ],
+        "key": "STEP_2_6_1"
+    },
+    {
+        "keywords":  [
+            "2f"
+        ],
+        "key": "STEP_2_6_2"
+    },
+    {
+        "keywords":  [
+            "3f"
+        ],
+        "key": "STEP_2_6_3"
+    },
+    {
+        "keywords":  [
+            "4f"
+        ],
+        "key": "STEP_2_6_4"
+    },
+    {
+        "keywords":  [
+            "5f"
+        ],
+        "key": "STEP_2_6_5"
+    },   
+    {
+        "keywords":  [
+            "7"
+        ],
+        "key": "STEP_2_7"
+    },
+    {
+        "keywords":  [
+            "1g"
+        ],
+        "key": "STEP_2_7_1"
+    },
+    {
+        "keywords":  [
+            "2g"
+        ],
+        "key": "STEP_2_7_2"
+    },
+    {
+        "keywords":  [
+            "3g"
+        ],
+        "key": "STEP_2_7_3"
+    },
+    {
+        "keywords":  [
+            "4g"
+        ],
+        "key": "STEP_2_7_4"
+    },
+    {
+        "keywords":  [
+            "5g"
+        ],
+        "key": "STEP_2_7_5"
+    },
+    {
+        "keywords":  [
+            "6g"
+        ],
+        "key": "STEP_2_7_6"
+    },  
+    {
+        "keywords":  [
+            "instagram"
         ],
         "key": "STEP_3"
     },
+
     {
         "keywords":  [
-            "muchas gracias",
-            "ok",
-            "gracias",
-            "vale gracias"
+            "twitter"
         ],
         "key": "STEP_4"
-    },
-    {
-        "keywords":  [
-            "youtube"
-        ],
-        "key": "STEP_5"
-    },
-    {
-        "keywords":  [
-            "VER_CURSOS"
-        ],
-        "key": "STEP_6"
-    },
-    {
-        "keywords":  [
-            "telegram"
-        ],
-        "key": "STEP_7"
-    },
-    {
-        "keywords":  [
-            "audio"
-        ],
-        "key": "STEP_8"
     }
 ]
