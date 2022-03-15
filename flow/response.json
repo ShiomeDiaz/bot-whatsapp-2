@@ -1,7 +1,6 @@
 {
     "DEFAULT":{
         "replyMessage":[
-            "*Esta respuesta es un respuesta default* cuando no se consigue una palabra clave \n",
             "Prueba escribiendo *hola* \n"
         ],
         "media":null,
@@ -22,13 +21,15 @@
         "media":null,
         "trigger":null,
         "actions":{
-            "title":"Hola! y✌️ Bienvenido a este 🤖 ABOT de Whatsapp",
+            "title":"Hola! y✌️ Bienvenido a este 🤖 A|BOT de Whatsapp",
             "message":"Si deseas mas información presiona *Info*. \n\n De igual manera puedes visitar nuestras redes sociales *Twitter* y *Instagram* ",
             "footer":"Gracias",
             "buttons":[
                 {"body":"Info"},
                 {"body":"Twitter"},
-                {"body":"Instagram"}
+                {"body":"Instagram"},
+                {"body":"Facebook"},
+                {"body":"Fanpage Facebook"}
             ]
         }         
 
@@ -656,8 +657,8 @@
     },
     "STEP_3":{
         "replyMessage":[
-            "Perfil de Insta \n",
-            "aqui link \n"
+            "visita mi cuenta de Instagram \n",
+            "https://www.instagram.com/alejandroceballos1967/ \n"
         ],
         "media":null,
         "trigger":null
@@ -665,8 +666,26 @@
 
     "STEP_4":{
         "replyMessage":[
-            "Ven a nuestro Twitter \n",
-            "Aqui link \n"
+            "conoce mi cuenta de  Twitter\n",
+            "https://twitter.com/aceballosm\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+    "STEP_5":{
+        "replyMessage":[
+            "Visitame en mi cuenta personal de Facebook \n",
+            "https://www.facebook.com/alejandro.ceballos.5623\n"
+        ],
+        "media":null,
+        "trigger":null
+    },
+
+    "STEP_6":{
+        "replyMessage":[
+            "Te invito a conocer mi Fan page de Facebook\n",
+            " https://www.facebook.com/alejandroceballosmarquez\n"
         ],
         "media":null,
         "trigger":null
