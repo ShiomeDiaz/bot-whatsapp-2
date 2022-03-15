@@ -313,8 +313,27 @@
     },  
     {
         "keywords":  [
-            "social"
+            "social",
+            "instagram"
         ],
         "key": "STEP_3"
+    },
+    {
+        "keywords":  [
+            "twitter"
+        ],
+        "key": "STEP_4"
+    },
+    {
+        "keywords":  [
+            "facebook"
+        ],
+        "key": "STEP_5"
+    },
+    {
+        "keywords":  [
+            "fanpage"
+        ],
+        "key": "STEP_6"
     }
 ]

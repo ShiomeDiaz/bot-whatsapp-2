@@ -658,7 +658,7 @@
             "https://www.instagram.com/alejandroceballos1967/ \n\n"
         ],
         "media":null,
-        "trigger":"STEP_4"
+        "trigger":"twitter"
     },
     "STEP_4":{
         "replyMessage":[
@@ -666,7 +666,7 @@
             "https://twitter.com/aceballosm\n\n"
         ],
         "media":null,
-        "trigger":"STEP_5"
+        "trigger":"facebook"
     },
     "STEP_5":{
         "replyMessage":[
@@ -674,7 +674,7 @@
             "https://www.facebook.com/alejandro.ceballos.5623\n\n"
         ],
         "media":null,
-        "trigger":"STEP_6"
+        "trigger":"fanpage"
     },
     "STEP_6":{
         "replyMessage":[
