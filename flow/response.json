@@ -22,7 +22,7 @@
         "trigger":null,
         "actions":{
             "title":"Hola! y✌️ Bienvenido a este 🤖 A|BOT de Whatsapp",
-            "message":"Si deseas mas información presiona *Informacion*. \n\n De igual manera nos puedes visitar en nuestras *Redes Sociales*. ",
+            "message":"Si deseas conocer sobre nuestras propuestas presiona *Informacion*. \n\n De igual manera nos puedes visitar en nuestras *Redes Sociales*. ",
             "footer":"Gracias",
             "buttons":[
                 {"body":"Informacion"},
