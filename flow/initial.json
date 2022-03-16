@@ -17,7 +17,7 @@
     },
     {
         "keywords":  [
-            "informacion",
+            "info",
             "inicio"
         ],
         "key": "STEP_2"
@@ -313,26 +313,26 @@
     },  
     {
         "keywords":  [
-            "social",
-            "instagram"
+            "redes sociales",
+            "social"
         ],
         "key": "STEP_3"
-    },
+    },  
+    {
+        "keywords":  [
+            "instagram"
+        ],
+        "key": "STEP_4"
+    },  
     {
         "keywords":  [
             "twitter"
         ],
-        "key": "STEP_4"
-    },
+        "key": "STEP_5"
+    },  
     {
         "keywords":  [
             "facebook"
-        ],
-        "key": "STEP_5"
-    },
-    {
-        "keywords":  [
-            "fanpage"
         ],
         "key": "STEP_6"
     }

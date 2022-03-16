@@ -22,11 +22,11 @@
         "trigger":null,
         "actions":{
             "title":"Hola! y✌️ Bienvenido a este 🤖 A|BOT de Whatsapp",
-            "message":"Si deseas saber mas presiona  *Información*. \n\n De igual manera puedes visitar nuestras redes sociales presionando *Social*",
+            "message":"Si deseas mas información presiona *Informacion*. \n\n De igual manera nos puedes visitar en nuestras *Redes Sociales*. ",
             "footer":"Gracias",
             "buttons":[
                 {"body":"Informacion"},
-                {"body":"Social"}
+                {"body":"Redes Sociales"}
             ]
         }         
 
@@ -654,30 +654,44 @@
     },
     "STEP_3":{
         "replyMessage":[
-            "visita mi cuenta de Instagram \n",
-            "https://www.instagram.com/alejandroceballos1967/ \n\n"
+            "😎😎😎"
         ],
         "media":null,
-        "trigger":"twitter"
+        "trigger":null,
+        "actions":{
+            "title":"Social",
+            "message":"Te invito a que me conozcas",
+            "footer":"Gracias",
+            "buttons":[
+                {"body":"Facebook"},
+                {"body":"Twitter"},
+                {"body":"Instagram"}
+
+            ]
+        } 
     },
     "STEP_4":{
         "replyMessage":[
-            "conoce mi cuenta de  Twitter\n",
-            "https://twitter.com/aceballosm\n\n"
+            "visita mi cuenta de Instagram \n",
+            "https://www.instagram.com/alejandroceballos1967/ \n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
         ],
         "media":null,
-        "trigger":"facebook"
+        "trigger":null
     },
     "STEP_5":{
         "replyMessage":[
-            "Visitame en mi cuenta personal de Facebook \n",
-            "https://www.facebook.com/alejandro.ceballos.5623\n\n"
+            "conoce mi cuenta de  Twitter\n",
+            "https://twitter.com/aceballosm\n\n",
+            "Escribe *Inicio* para volver al menu principal😎😎😎"
         ],
         "media":null,
-        "trigger":"fanpage"
+        "trigger":null
     },
     "STEP_6":{
         "replyMessage":[
+            "Visitame en mi cuenta personal de Facebook \n",
+            "https://www.facebook.com/alejandro.ceballos.5623\n\n",
             "Te invito a conocer mi Fan page de Facebook\n",
             "https://www.facebook.com/alejandroceballosmarquez\n\n",
             "Escribe *Inicio* para volver al menu principal😎😎😎"
