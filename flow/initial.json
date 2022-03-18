@@ -2,6 +2,9 @@
     {
         "keywords":  [
             "hola",
+            "hola...",
+            "hola ...",
+            "hello",
             "hola!",
             "ola",
             "ole",
@@ -18,6 +21,7 @@
     {
         "keywords":  [
             "informacion",
+            "información",
             "inicio"
         ],
         "key": "STEP_2"
