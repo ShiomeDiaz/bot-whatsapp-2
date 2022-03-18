@@ -15,17 +15,17 @@
     },
     "STEP_1":{
         "replyMessage":[
-            "*Conocenos*\n",
-            "Aqui puedes leer todas nuestras propuestas y encontrar nuestras redes sociales!"
+            "*Te invito a conocerme*\n",
+            "Aquí puedes leer todas las propuestas y compromisos además de encontrar mis redes sociales!"
         ],
         "media":null,
         "trigger":null,
         "actions":{
-            "title":"Hola! y✌️ Bienvenido a este 🤖 A|BOT de Whatsapp",
-            "message":"Si deseas conocer sobre nuestras propuestas presiona *Informacion*. \n\n De igual manera nos puedes visitar en nuestras *Redes Sociales*. ",
+            "title":"Hola! y✌️ Bienvenido al 🤖 *A|BOT* de Whatsapp",
+            "message":"Si deseas conocer sobre mis propuestas presiona *Información*. \n\n De igual manera puedes visitarme en mis *Redes Sociales*. ",
             "footer":"Gracias",
             "buttons":[
-                {"body":"Informacion"},
+                {"body":"Información"},
                 {"body":"Redes Sociales"}
             ]
         }         
@@ -58,7 +58,7 @@
             "*6a -->* Fortalecimiento de la planta docente y creación de un programa de desarrollo para profesores orientado a su cualificación disciplinar, pedagógica, didáctica y curricular.  \n\n",
             "*7a -->* Centro de formación y estrategias de aprendizaje orientado al estudiante.  \n\n",
             "*8a -->* Gestión de excelencia y desarrollo académico con calidad.  \n\n",
-            "Escribe el *número* y su *literal* del tema que te interese \n\n",
+            "Escribe el *número* y su *literal* del tema que te interese para conocer mis compromisos \n\n",
             "😎😎😎"
         ],
         "media":null,
@@ -174,7 +174,7 @@
             "*4b -->* Infraestructura científica y tecnológica para la investigación. \n\n",
             "*5b -->* Conocimiento como bien público e implementación de la ciencia abierta.\n\n",
             "*6b -->* Transferencia e impacto del conocimiento generado.\n\n",
-            "Escribe el numero y su literal del tema que te interese \n\n",
+            "Escribe el *número* y su *literal* del tema que te interese para conocer mis compromisos \n\n",
             "😎😎😎"
         ],
         "media":null,
@@ -266,7 +266,7 @@
             "*5c -->* Relacionamiento estratégico interinstitucional.\n\n",
             "*6c -->* Visibilidad y reputación nacional e internacional.\n\n",
             "*7c -->* Apropiación social del conocimiento e innovación pública.\n\n",
-            "Escribe el numero y su literal del tema que te interese \n\n",
+            "Escribe el *número* y su *literal* del tema que te interese para conocer mis compromisos \n\n",
             "😎😎😎"
         ],
         "media":null,
@@ -370,7 +370,7 @@
             "*4d -->* Sistemas integrados de comunicación e información.\n\n",
             "*5d -->* Gobierno digital como soporte de la gestión institucional.\n\n",
             "*6d -->* Integración y actualización normativa.\n\n",
-            "Escribe el numero y su literal del tema que te interese \n\n",
+            "Escribe el *número* y su *literal* del tema que te interese para conocer mis compromisos \n\n",
             "😎😎😎"
         ],
         "media":null,
@@ -454,6 +454,7 @@
             "*1e -->* El bien-estar como desarrollo de capacidades de los diferentes integrantes de la comunidad universitaria.\n\n",
             "*2e -->* Comunidad universitaria saludable.\n\n",
             "*3e -->* Ambiente institucional respetuoso de la diversidad y las diferencias.\n\n",
+            "Escribe el *número* y su *literal* del tema que te interese para conocer mis compromisos \n\n",
             "😎😎😎"
         ],
         "media":null,
@@ -503,7 +504,7 @@
             "*3f -->* Gestión ambiental con responsabilidad social.\n\n",
             "*4f -->* Identificación y caracterización del patrimonio ambiental de los diferentes campus.\n\n",
             "*5f -->* Adopción e incorporación de tecnologías limpias.\n\n",
-            "Escribe el numero y su literal del tema que te interese \n\n",
+            "Escribe el *número* y su *literal* del tema que te interese para conocer mis compromisos \n\n",
             "😎😎😎"
         ],
         "media":null,
@@ -580,7 +581,7 @@
             "*4g -->* Lograr el equilibrio presupuestal en funcionamiento a 2026.\n\n",
             "*5g -->* Gestión estratégica de proyectos para el desarrollo institucional.\n\n",
             "*6g -->* Incremento de la apropiación presupuestal para inversión proveniente de fuentes diversas de nuevos ingresos.\n\n",
-            "Escribe el numero y su literal del tema que te interese \n\n",
+            "Escribe el *número* y su *literal* del tema que te interese para conocer mis compromisos \n\n",
             "😎😎😎"
         ],
         "media":null,
